@@ -33,7 +33,7 @@ function setup() {
     for (var y = 0; y < imageSize; y+=pixelSize)
     {
       c = img.get(x, y);
-      var pixel = { "x" : x , "y": y, "r": c[0], "g": c[1], "b": c[2], "painted": 1 }
+      var pixel = { "x" : x , "y": y, "r": c[0], "g": c[1], "b": c[2], "painted": 0 }
       console.log(pixel);
       pixels.push(pixel);
     }
