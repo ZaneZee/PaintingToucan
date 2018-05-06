@@ -1,0 +1,44 @@
+#mainDiv {
+  position: fixed;
+  width: 90%;
+  height: 80%;
+  left: 5%;
+  background-color: #008080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#textDiv {
+  width:40%;
+  height: 13%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#canvasDiv {
+  position: fixed;
+  height:501px;
+  width:501px;
+  margin: auto;
+}
+
+#footerDiv {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 10%;
+    width: 90%;
+    overflow: hidden;
+}
+
+p {
+  color: white;
+  font-size: 12pt;
+}
